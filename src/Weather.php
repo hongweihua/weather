@@ -1,11 +1,16 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: whhong
- * Date: 2018/12/20
- * Time: 14:52
+
+/*
+ * This file is part of the whhong/weather.
+ *
+ * (c) whhong <751997661@qq.com>
+ *
+ * This source file is subject to the MIT license that is bundled
+ * with this source code in the file LICENSE.
  */
+
 namespace Whhong\Weather;
+
 use GuzzleHttp\Client;
 use Whhong\Weather\Exceptions\HttpException;
 use Whhong\Weather\Exceptions\InvalidArgumentException;
@@ -13,6 +18,7 @@ use Whhong\Weather\Exceptions\InvalidArgumentException;
 class Weather
 {
     protected $key;
+
     protected $guzzleOptions = [];
 
     public function __construct($key)
@@ -39,18 +45,19 @@ class Weather
         }
 
         if (!in_array(strtolower($format), ['json', 'xml'])) {
-            throw new InvalidArgumentException('Invalid response format: ' .$format);
+            throw new InvalidArgumentException('Invalid response format: '.$format);
         }
 
         $query = array_filter([
             'key' => $this->key,
             'city' => $city,
             'output' => $format,
-            'extensions' =>  $type,
+            'extensions' => $type,
         ]);
+
         try {
             $response = $this->getHttpClient()->get($url, [
-                'query' => $query
+                'query' => $query,
             ])->getBody()->getContents();
 
             return 'json' === $format ? json_decode($response, true) : $response;
@@ -58,7 +65,6 @@ class Weather
             throw new HttpException($e->getMessage(), $e->getCode(), $e);
         }
     }
-
 
     public function getLiveWeather($city, $format = 'json')
     {

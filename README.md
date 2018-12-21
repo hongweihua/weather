@@ -2,9 +2,7 @@
 
 <p align="center">:rainbow: 基于高德开放平台的 PHP 天气信息组件。</p>
 
-[![Build Status](https://travis-ci.org/hongweihua/weather.svg?branch=master)](https://travis-ci.org/hongweihua/weather)
-
-[![StyleCI](https://github.styleci.io/repos/162661094/shield?branch=master)](https://github.styleci.io/repos/162661094)
+[![Build Status](https://travis-ci.org/hongweihua/weather.svg?branch=master)](https://travis-ci.org/hongweihua/weather)[![StyleCI](https://github.styleci.io/repos/162661094/shield?branch=master)](https://github.styleci.io/repos/162661094)
 ## 安装
 
 ```shell

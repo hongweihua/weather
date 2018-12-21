@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57f8bfbb-05ae-4640-a143-0beb1fcff7ea" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/src/Weather.php" afterPath="$PROJECT_DIR$/src/Weather.php" />
-      <change beforePath="$PROJECT_DIR$/tests/WeatherTest.php" afterPath="$PROJECT_DIR$/tests/WeatherTest.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,12 +18,12 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="318">
-                <caret line="199" column="43" lean-forward="false" selection-start-line="199" selection-start-column="43" selection-end-line="199" selection-end-column="43" />
+              <first_editor relative-caret-position="40">
+                <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
                 <folding>
-                  <marker date="1545377563000" expanded="true" signature="429:845" ph="{&quot;status&quot;: &quot;1&quot;...}" />
-                  <marker date="1545377563000" expanded="true" signature="524:845" ph="[...]" />
-                  <marker date="1545377563000" expanded="true" signature="534:839" ph="{&quot;province&quot;: &quot;广东&quot;...}" />
+                  <marker date="1545378704000" expanded="true" signature="542:958" ph="{&quot;status&quot;: &quot;1&quot;...}" />
+                  <marker date="1545378704000" expanded="true" signature="637:958" ph="[...]" />
+                  <marker date="1545378704000" expanded="true" signature="647:952" ph="{&quot;province&quot;: &quot;广东&quot;...}" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -36,7 +35,7 @@
         <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+              <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -46,7 +45,7 @@
         <entry file="file://$PROJECT_DIR$/src/Weather.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="544">
-              <caret line="70" column="5" lean-forward="true" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+              <caret line="70" column="5" lean-forward="false" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
               <folding>
                 <element signature="e#6#88#0#PHP" expanded="true" />
                 <element signature="e#115#137#0#PHP" expanded="true" />
@@ -234,7 +233,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9553000" />
+    <option name="totallyTimeSpent" value="9934000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -290,9 +289,9 @@
           <first_editor relative-caret-position="390">
             <caret line="54" column="2" lean-forward="true" selection-start-line="54" selection-start-column="2" selection-end-line="54" selection-end-column="2" />
             <folding>
-              <marker date="1545377563000" expanded="true" signature="429:845" ph="{&quot;status&quot;: &quot;1&quot;...}" />
-              <marker date="1545377563000" expanded="true" signature="524:845" ph="[...]" />
-              <marker date="1545377563000" expanded="true" signature="534:839" ph="{&quot;province&quot;: &quot;广东&quot;...}" />
+              <marker date="1545378704000" expanded="true" signature="542:958" ph="{&quot;status&quot;: &quot;1&quot;...}" />
+              <marker date="1545378704000" expanded="true" signature="637:958" ph="[...]" />
+              <marker date="1545378704000" expanded="true" signature="647:952" ph="{&quot;province&quot;: &quot;广东&quot;...}" />
             </folding>
           </first_editor>
           <second_editor />
@@ -379,7 +378,7 @@
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -435,7 +434,7 @@
     <entry file="file://$PROJECT_DIR$/src/Weather.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
-          <caret line="70" column="5" lean-forward="true" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+          <caret line="70" column="5" lean-forward="false" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
           <folding>
             <element signature="e#6#88#0#PHP" expanded="true" />
             <element signature="e#115#137#0#PHP" expanded="true" />
@@ -456,12 +455,12 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="318">
-            <caret line="199" column="43" lean-forward="false" selection-start-line="199" selection-start-column="43" selection-end-line="199" selection-end-column="43" />
+          <first_editor relative-caret-position="40">
+            <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
             <folding>
-              <marker date="1545377563000" expanded="true" signature="429:845" ph="{&quot;status&quot;: &quot;1&quot;...}" />
-              <marker date="1545377563000" expanded="true" signature="524:845" ph="[...]" />
-              <marker date="1545377563000" expanded="true" signature="534:839" ph="{&quot;province&quot;: &quot;广东&quot;...}" />
+              <marker date="1545378704000" expanded="true" signature="542:958" ph="{&quot;status&quot;: &quot;1&quot;...}" />
+              <marker date="1545378704000" expanded="true" signature="637:958" ph="[...]" />
+              <marker date="1545378704000" expanded="true" signature="647:952" ph="{&quot;province&quot;: &quot;广东&quot;...}" />
             </folding>
           </first_editor>
           <second_editor />
